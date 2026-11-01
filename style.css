@@ -1,0 +1,61 @@
+.di{
+background-image:url('https://t3.ftcdn.net/jpg/01/91/95/20/360_F_191952050_FHCSMOmQ5aO7emxMBiVAfUvNBBzKVgIb.jpg');
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-size:cover;
+height:10cm;
+}
+.pre{
+color:yellow;
+font-family:verdano;
+}
+.pre:hover{
+opacity:0.3;
+}
+.div{
+background-color:lightgreen;
+animation:bgchange 8s infinite;
+padding:25px;
+}
+@keyframes bgchange{
+0%{background-color:lightgreen;}
+25%{background-color:lightsalmon;}
+50%{background-color:lightblue;}
+100%{background-color:purple;}
+}
+.grid-container{
+display: flex;
+gap: 103px;
+margin: 20px;
+flex-wrap: wrap;
+}
+button{
+background-color:lightblue;
+width:125px;
+opacity:0.8;
+}
+button:hover{
+opacity:1;
+}
+.footer {
+background-color: #d9d9d9;
+text-align: center;
+padding: 20px;
+font-size: 12px;
+font-family: sans-serif;
+}
+.social-icons {
+margin: 5px 0;
+}
+.icon {
+display: inline-block;
+width: 12px;
+height: 12px;
+background-color: #333;
+margin: 0 2px;
+color: white;
+font-size: 10px;
+line-height: 12px;
+text-align: center;
+border-radius: 2px;
+}
